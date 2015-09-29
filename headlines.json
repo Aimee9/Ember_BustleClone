@@ -1,0 +1,22 @@
+{ "headlines": [{
+  "id": 1,
+  "title": "Water found on Mars",
+  "image": "http://pbs.twimg.com/media/CQAICTgUwAAVZjf.jpg",
+  "story": "Water has been found on Mars.  Percival Lowell is turning over in his grave right now.  Soon...aliens!"
+}, {
+  "id": 2,
+  "title": "An Interview with a Track Star",
+  "image": "http://www.apbspeakers.com/sites/default/files/imagecache/apb_speaker_page/speaker/image/sp11798_0.png",
+  "story": "Interviewer:'Why are you so great?' Joyner-Kersee:'The power is in my nails.'"
+}, {
+  "id": 3,
+  "title": "Why Brooklyn-Nine-Nine has the best female character",
+  "image": "http://www.btchflcks.com/wp-content/uploads/2014/08/Brooklyn-Nine-Nine-cast.jpg",
+  "story": "They are funny.  Just watch it, damnit!"
+}, {
+  "id": 4,
+  "title": "Veggies: They are awesome, eat MOAR",
+  "image": "http://www.hollywood-today.net/newadw/36/images/shower.jpg",
+  "story": "More veggies, less meat.  Better individual health, better population health, better environmental health.  It's that simple."
+}]
+}

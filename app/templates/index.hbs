@@ -1,1 +1,7 @@
-{{outlet}}
+<ul>
+  {{#each model as |headline|}}
+  <li>{{headline.title}}
+  <p><img src={{headline.image}} alt="" /></p>
+</li>
+  {{/each}}
+</ul>
