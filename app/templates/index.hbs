@@ -1,7 +1,20 @@
 <ul>
+
+  {{#carousel-container transition-interval=400}}
+  {{#carousel-item}}
   {{#each model as |headline|}}
-  <li>{{headline.title}}
-  <p><img src={{headline.image}} alt="" /></p>
-</li>
+  <div class="container" style="position:relative;">
+    <img src={{headline.image}} alt="" />
+    <li style="position:absolute; top:300px; left:20px">{{headline.title}}
+  </li>
+  </div>
   {{/each}}
+  {{/carousel-item}}
+  {{#carousel-arrow direction="left" tagName="button"}}
+   Slide Left
+ {{/carousel-arrow}}
+ {{#carousel-arrow direction="right" tagName="button"}}
+   Slide Right
+ {{/carousel-arrow}}
+{{/carousel-container}}
 </ul>
